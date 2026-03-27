@@ -1,4 +1,6 @@
 # 小 大 小 大 小 。。。
+from typing import List
+
 class Solution:
     def wiggleSort(self, nums: List[int]) -> None:
         nums.sort()                                 # 原地排序 in-place sort
